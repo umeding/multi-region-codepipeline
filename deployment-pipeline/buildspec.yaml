@@ -2,8 +2,10 @@ version: 0.2
 
 phases:
   install:
-    commands:
-      - pip install --upgrade awscli # https://github.com/awslabs/serverless-application-model/issues/93
+    runtime-versions:
+      python: 3.8
+    # commands:
+    #   - pip install --upgrade awscli # https://github.com/awslabs/serverless-application-model/issues/93
   build:
     commands:
       - chmod u+x ./multiregion-build.sh

@@ -174,7 +174,7 @@ Resources:
         - Name: US_EAST_1_ARTIFACT_BUCKET
           Value: !Sub '${ArtifactBucketNamePrefix}-us-east-1'
         - Name: EU_CENTRAL_1_ARTIFACT_BUCKET
-          Value: !Sub '${ArtifactBucketNamePrefix-eu-central-1'
+          Value: !Sub '${ArtifactBucketNamePrefix}-eu-central-1'
       ServiceRole: !Ref CodeBuildRole
       Source:
         Type: CODEPIPELINE
