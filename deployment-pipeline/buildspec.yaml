@@ -15,4 +15,4 @@ artifacts:
   files:
     # *** Change this list to reflect the per-region files generated in multiregion-build.sh
     - target/packaged-template-us-east-1.yaml
-    - target/packaged-template-us-west-2.yaml
+    - target/packaged-template-eu-central-1.yaml
